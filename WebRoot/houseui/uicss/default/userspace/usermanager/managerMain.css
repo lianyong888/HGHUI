@@ -1,0 +1,1083 @@
+@CHARSET "UTF-8";
+/*--------------------------------------------------
+ * 房产会员中心首页CSS
+ --------------------------------------------------*/
+.huigenghao_house_userManager_center {
+	width: 100%;
+	margin: 15px 0 0 0 !important;
+	float: left;
+	background: url("../../../../uimages/default/userspace/managercenter/usermanagerbkg.png") repeat-y scroll 0px 0px rgb(255, 255, 255);
+    border-radius: 8px 8px 0 0 !important;
+}
+
+body {
+	background: #ecedf1;
+}
+
+/*------ 房产会员中心首页-左边菜单栏 -------*/
+.house_userManager_center_left {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.userManager_center_left_top {
+	width: 100%;
+	height: 36px;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat 0px -311px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	box-shadow: 0px 1px 1px #ffffff;
+    border-radius: 3px;
+}
+
+.house_userManager_left_menu_main {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.userManager_left_menu_main_model {
+	border-left: 10px solid rgb(254, 112, 92);
+	background: none repeat scroll 0% 0% rgb(249, 219, 209);
+	width: 190px;
+	height: 45px;
+	cursor: pointer;
+}
+
+.userManager_left_menu_main_model a {
+	font-size: 14px;
+	padding: 10px 85px 10px 15px;
+	line-height: 45px;
+}
+
+.userManager_left_menu_main_model a:hover {
+	text-decoration: none;
+}
+
+.userManager_left_menu_child_cls {
+	color: red;
+}
+
+.userManager_left_menu_main_accountmng {
+	border-left: 10px solid rgb(206, 206, 206);
+	background: none repeat scroll 0% 0% rgb(248, 243, 243);
+	width: 190px;
+	height: 45px;
+	margin: 0 0 0 0 !important;
+	cursor: pointer;
+}
+
+.userManager_left_menu_main_accountmng a {
+	line-height: 45px;
+	padding: 0 0 0 15px !important;
+	font-size: 14px;
+}
+
+.userManager_left_menu_main_accountmng a:hover {
+	text-decoration: none;
+}
+
+.center_left_main_ul_two {
+	margin: 0 0 35px 0 !important;
+}
+
+.center_left_main_ul_two li {
+	width: 195px;
+	line-height: 35px;
+}
+
+.center_left_main_ul_two li a {
+	border: 1px solid white;
+	font-size: 12px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	display: block;
+}
+
+.center_left_main_ul_two li a {
+	width: 160px;
+	margin: 0 0 0 10px !important;
+	border: 1px solid white;
+	border-bottom: 1px dashed #d0d0d0;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+.center_left_main_ul_two li a:hover {
+	color: #ff4e00;
+	text-decoration: none;
+	background: #fff6f0;
+}
+
+/*------ 房产会员中心首页-右边内容栏 -------*/
+.house_userManager_center_right {
+	width: 798px;
+	float: right;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 0 8px 0 0 !important;
+}
+
+.userManager_center_right_userinfo {
+	width: 100%;
+	float: left;
+	margin: 20px 0 0 0 !important;
+	display: inline;
+    border-radius: 5px;
+    padding-bottom: 20px !important;
+}
+
+.userManager_center_right_centerggao {
+	width: 100%;
+	height: 800px;
+	border-top: 1px solid #e9e9e9;
+	float: left;
+	margin: 15px 0 0 0 !important;
+}
+
+.center_right_userinfo_left {
+	float: left;
+	width: 150px;
+}
+
+.center_right_userinfo_right {
+	float: right;
+	width: 640px;
+}
+
+.right_userinfo_left_headicon {
+	margin: 20px 20px 10px 20px !important;
+}
+
+.right_userinfo_left_headicon img {
+    border-radius: 24px;
+}
+
+.right_userinfo_left_editorhead {
+	width: 100%;
+	text-align: center;
+}
+
+.right_userinfo_left_editorhead a {
+	color: #ff4e00;
+}
+
+.right_userinfo_right_head {
+	width: 610px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #d0d0d0;
+}
+
+.userinfo_right_head_anqjb_a {
+	width: 50px;
+	height: 20px;
+	background: #f98300;
+	float: left;
+	margin: 8px 0 0 5px !important;
+	overflow: hidden;
+	display: inline;
+    border-radius: 10px 0 0 10px !important;
+}
+
+.userinfo_right_head_anqjb_b {
+	width: 50px;
+	height: 20px;
+	background: #f98300;
+	float: left;
+	margin: 8px 0 0 1px !important;
+	overflow: hidden;
+	display: inline;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+}
+
+.userinfo_right_head_anqjb_c {
+	width: 50px;
+	height: 20px;
+	background: #f98300;
+	float: left;
+	margin: 8px 0 0 1px !important;
+	overflow: hidden;
+	display: inline;
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.userinfo_right_head_emailrz {
+	float: left;
+	margin: 0 0 0 15px !important;
+}
+
+.right_head_emailrz_icon {
+	width: 16px;
+	height: 18px;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat -306px -282px;
+    float: left;
+    margin: 13px 0 0 0 !important;
+    display: inline;
+}
+
+.right_head_emailrz_text {
+	float: left;
+	margin: 1px 0 0 5px !important;
+	display: inline;
+}
+
+.right_head_emailrz_text a {
+	color: #ff4e00;
+}
+
+.right_head_phonerz_icon {
+	width: 16px;
+	height: 18px;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat -308px -256px;
+    float: left;
+    margin: 11px 0 0 5px !important;
+    display: inline;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 房产会员中心-个人资料CSS
+ --------------------------------------------------*/
+.house_userManager_center_personinfo {
+	width: 100%;
+	float: left;
+	border-radius: 0 8px 0 0 !important;
+	padding: 0 0 30px 0 !important;
+	height: 800px;
+}
+
+.userManager_center_personinfo_head {
+	height: 50px;
+	border-bottom: 2px solid rgb(255, 119, 15);
+	width: 740px;
+	margin: 13px 28px 0px;
+	float: left;
+	display: inline;
+}
+
+.center_personinfo_head_ul {
+	float: left;
+}
+
+.center_personinfo_head_ul li {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    padding: 0px 0px;
+    width: 58px;
+}
+
+.center_personinfo_head_ul .ncur a {
+    background: url("../../../../uimages/default/userspace/managercenter/info_icon.png") no-repeat scroll 50% 100% transparent;
+    _background: url("../../../../uimages/default/userspace/managercenter/info_icon.png") no-repeat scroll 50% 105% transparent;
+    color: rgb(51, 51, 51) !important;
+    font-weight: bold;
+}
+
+.center_personinfo_head_ul li a {
+    display: block;
+    height: 52px;
+    line-height: 52px;
+}
+
+.userManager_center_personinfo_main {
+	padding: 0px 88px 0px;
+}
+
+.personinfo_main_onea_tt {
+	float: left;
+	line-height: 30px;
+	font-weight: bold;
+	margin: 0 0 0 10px !important;
+}
+
+.personinfo_main_onea_rt {
+    background: url("../../../../uimages/default/userspace/managercenter/info_dotted.png") repeat-x scroll 0px 50% transparent;
+    float: left;
+    width: 520px;
+    height: 6px;
+	display: inline;
+	margin: 12px 0 0 10px !important;
+	_margin: 7px 0 0 10px !important;
+}
+
+.personinfo_main_onea_lt {
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll transparent;
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+.dangan {
+	background-position:  -159px 0px;
+}
+
+.city {
+	background-position:  -196px 0px;
+}
+
+.gexing {
+	background-position:  -233px 0px;
+}
+
+.personinfo_main_one_a {
+	width: 100%;
+	padding: 20px 0 0 0 !important;
+	float: left;
+}
+
+.personinfo_main_one_b {
+	width: 600px;
+	float: left;
+	margin: 10px 0 0 0 !important;
+	display: inline;
+}
+
+.personinfo_main_one_b li {
+	width: 100%;
+	float: left;
+}
+
+.main_one_b_label {
+	float: left;
+	width: 60px;
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+}
+
+.main_one_b_textfild {
+	float: left;
+	margin: 5px 0 0 10px !important;
+	display: inline;
+	line-height: 30px;
+}
+
+.main_one_b_textfild label {
+	line-height: 35px;
+	margin: 5px 0 0 0 !important;
+	padding: 5px 0 0 0 !important;
+}
+
+.persword_head_ul {
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll -260px 0 transparent;
+    float: left;
+    width: 34px;
+    height: 17px;
+    display: inline;
+    overflow: hidden;
+    margin: 17px 5px 0 0 !important;
+}
+
+.action_submit_btton {
+	width: 100%;
+	float: left;
+}
+
+.submit_btton_icon {
+	width: 100px;
+	height: 30px;
+    background: url("../../../../uimages/default/skin/btn_default_2.png") no-repeat scroll 0 -230px transparent;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.pswkupt_btn {
+	margin: 30px 0 0 71px;
+}
+
+.submit_btton_icon:hover {
+    background: url("../../../../uimages/default/skin/btn_default_2.png") no-repeat scroll 0px -260px transparent;
+    text-decoration: none;
+}
+
+.accountbd_ul li {
+    width: 120px;
+}
+
+.userManager_center_accountbd_main {
+	width: 700px;
+	margin: 30px 0 0 15px !important;
+	float: left;
+    display: inline;
+}
+
+.center_accountbd_main_one {
+	float: left;
+	width: 28px;
+	height: 45px;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll -132px -80px transparent;
+    margin: 10px 0 0 20px !important;
+    display: inline;
+}
+
+.center_accountbd_main_two {
+	float: left;
+	padding: 15px 0 0 15px !important;
+}
+
+.center_accountbd_main_two p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.center_accountbd_main_three {
+	float: right;
+}
+
+.upconfig_btton_icon {
+	width: 60px;
+	height: 26px;
+    background: url("../../../../uimages/default/skin/btn_default.png") no-repeat scroll 0px -460px transparent;
+    text-align: center;
+    line-height: 26px;
+    display: block;
+	text-align: center;
+	margin: 20px 0 0 0 !important;
+}
+
+.upconfig_btton_icon:hover {
+    background: url("../../../../uimages/default/skin/btn_default.png") no-repeat scroll 0px -493px transparent;
+    text-decoration: none;
+}
+
+.userManager_center_accountbd_line {
+	width: 700px;
+	height: 10px;
+	border-bottom: 1px dashed #d0d0d0;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	margin: 10px 0 0 10px !important;
+}
+
+.center_accountbd_email_one {
+	float: left;
+	width: 32px;
+	height: 24px;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll -161px -80px transparent;
+    margin: 22px 0 0 20px !important;
+    display: inline;
+}
+
+.userManager_center_platform_list {
+	width: 700px;
+	margin: 0px 0 0 28px !important;
+	float: left;
+    display: inline;
+}
+
+.center_platform_list_ul {
+	width: 100%;
+}
+
+.center_platform_list_ul li {
+	float: left;
+	width: 350px;
+	border-bottom: 1px dashed #e9e9e9;
+	padding: 30px 0 !important;
+}
+
+.platform_list_pticon {
+    background: url("../../../../uimages/default/userspace/loginreg/login.png") no-repeat scroll transparent;
+    width: 106px;
+    display: block;
+    outline: medium none;
+    text-indent: -9999px;
+    float: left;
+    width: 106px;
+    height: 100px;
+    margin-right: 5px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+}
+
+.platform_list_pticon:hover {
+    border: 1px solid rgb(255, 134, 0);
+}
+
+.auth-sina {
+	background-position:  0px 0px;
+}
+
+.auth-qq {
+	background-position:  -106px 0px;
+}
+
+.auth-baidu {
+	background-position:  -318px 0px;
+}
+
+.auth-58 {
+	background-position:  -424px 0px;
+}
+
+.auth-ganji {
+	background-position:  -530px 0px;
+}
+
+.bangd_bottn_platform {
+	display: inline-block;
+	width: 60px;
+	height: 26px;
+	background: url("../../../../uimages/default/skin/btn_default.png") no-repeat scroll 0px 0px transparent;
+	text-align: center;
+	font-weight: bold;
+	line-height: 26px;
+	color: white;
+	margin: 10px 0 0 0 !important;
+}
+
+.bangd_bottn_platform:hover {
+    background: url("../../../../uimages/default/skin/btn_default.png") no-repeat scroll 0px -79px transparent;
+    text-decoration: none;
+}
+
+.center_accountbd_lticon {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 房产会员中心-新房管理CSS
+ --------------------------------------------------*/
+.userManager_center_right_xinfang {
+	width: 100%;
+	float: left;
+	margin: 10px 0 0 0 !important;
+}
+
+.center_right_xinfang_main {
+	width: 100%;
+    border-radius: 10px 10px 0 0 !important;
+    border: 1px solid #e9e9e9;
+    padding: 0 0 20px 0 !important;
+	float: left;
+}
+
+.right_xinfang_main_menu {
+	height: 40px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+	float: left;
+	width: 100%;
+}
+
+.xinfang_main_menu_list {
+	width: 90%;
+	height: 40px;
+	margin: 0 0 0 15px !important;
+}
+
+.xinfang_main_menu_list li {
+	float: left;
+	width: 64px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	margin: 0 30px 0 0 !important;
+}
+
+.xinfang_main_menu_list li.main_menu_list_select {
+	border-bottom: 2px solid rgb(132, 132, 132);
+}
+
+.xinfang_main_menu_list li a {
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+}
+
+.xinfang_main_menu_list li.main_menu_list_select a {
+	color: #000000;
+}
+
+.xinfang_main_menu_list li a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.right_xinfang_main_info {
+	width: 100%; 
+	float: left;
+}
+
+.center_right_xinfang_one {
+	float: left;
+	margin: 20px 0 0 15px !important;
+	display: inline;
+}
+
+.xinfang_allinfo_a_tt em {
+    font-size: 18px;
+    color: #ff4e00;
+}
+
+.xinfang_allinfo_b_tt {
+	margin: 0 0 0 48px !important;
+}
+
+.xinfang_allinfo_b_tt em {
+    font-size: 16px;
+    color: #ff4e00;
+}
+
+.xinfang_allinfo_c_tt {
+	margin: 0 0 0 48px !important;
+}
+
+.xinfang_allinfo_c_tt em {
+    font-size: 16px;
+    color: #999999;
+}
+
+.center_right_xinfang_two {
+	float: left;
+}
+
+.right_xinfang_two_fbmit {
+	width: 120px;
+	height: 36px;
+	margin: 25px 0 0 48px !important;
+	text-align: center;
+	line-height: 36px;
+}
+
+.right_xinfang_two_fbmit a {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.right_xinfang_two_fbmit a:hover {
+	text-decoration: none;
+}
+
+.center_right_xinfang_xtypes {
+	width: 100%;
+	border: 1px dashed #d0d0d0;
+	float: left;
+	margin: 10px 0 0 0 !important;
+	display: inline;
+	height: 35px;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 房产会员中心-房产项目管理
+ --------------------------------------------------*/
+.house_houseManager_center_right {
+	float: left;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 0 8px 0 0 !important;
+	width: 798px !important;
+	_width: 795px !important;
+	_float: right;
+}
+
+.houseManager_center_right_top {
+	overflow: hidden;
+	position: relative;
+	margin-top: -3px;
+	padding: 0px 0px 0px 35px;
+	border-bottom: 3px solid rgb(255, 138, 0);
+    height: 45px;
+}
+
+.houseManager_center_right_top li {
+    float: left;
+    display: inline;
+}
+
+.houseManager_center_right_top li.docThis a {
+    background: none repeat scroll 0% 0% rgb(255, 138, 0);
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.houseManager_center_right_top li a {
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    width: 150px;
+    display: block;
+}
+
+.houseManager_center_right_infotype {
+	width: 770px;
+	height: 60px;
+	border-bottom: 1px solid #ff4e00;
+	border-bottom: 1px solid #e9e9e9;
+	margin-left: 10px;
+}
+
+.houseManager_center_right_infotype a {
+    display: inline-block;
+    float: left;
+	border: 1px solid #d0d0d0;
+	height: 28px;
+	margin: 16px 10px 0px 0px;
+	line-height: 28px;
+	padding: 0px 15px;
+}
+
+.hosMng_cntrht_type_sel {
+	color: #006ccb;
+}
+
+.houseManager_center_info_list {
+	width: 770px !important;
+	height: 125px !important;
+	border-bottom: 1px solid #e9e9e9;
+	margin: 5px 0 20px 10px !important;
+}
+
+.center_info_list_img {
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin: 8px 0 0 0 !important;
+	display: inline;
+	overflow: hidden;
+	border: 1px solid #e9e9e9;
+	padding: 1px !important;
+}
+
+.houseManager_info_list_content {
+	float: left;
+	width: 450px;
+}
+
+.houseManager_center_infolist_right {
+	width: 160px;
+	float: right;
+	border-left: 1px dashed #d0d0d0;
+	height: 100px;
+	margin: 10px 0 0 0 !important;
+}
+
+.info_list_content_head {
+	width: 430px;
+	line-height: 35px;
+	font-size: 14px;
+	padding: 5px 0 0 15px;
+	white-space: nowrap;
+	word-break: keep-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.info_list_content_head a {
+	color: #006ccb;
+	font-weight: bold;
+}
+
+.info_list_content_moddle {
+	line-height: 23px;
+	margin: 0 0 0 15px !important;
+}
+
+.info_list_content_moddle em {
+	color: #ff4e00;
+}
+
+.center_infolist_right_one {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0 !important;
+}
+
+.infolist_right_one_a {
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll transparent;
+    width: 12px !important;
+    height: 12px !important;
+    overflow: hidden;
+	float: left;
+	margin: 3px 0 0 10px !important;
+	display: inline;
+}
+
+.info_show {
+	background-position:  -34px -23px;
+}
+
+.info_notshow {
+	background-position:  -50px -23px;
+}
+
+.infolist_right_one_text {
+	float: left;
+	margin: 0 0 0 5px !important;
+}
+
+.infolist_right_two_a {
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll transparent;
+    width: 14px !important;
+    height: 12px !important;
+    overflow: hidden;
+	float: left;
+	margin: 3px 0 0 10px !important;
+	display: inline;
+}
+
+.info_refsh {
+	background-position: -238px -80px;
+}
+
+.info_top {
+	background-position: -254px -80px;
+}
+
+.info_edtor {
+	background-position: -282px -80px;
+}
+
+.info_open {
+	background-position: -268px -80px;
+}
+
+.info_delete {
+	background-position: -296px -80px;
+	width: 14px !important;
+    height: 14px !important;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 房产会员中心-发布房产项目
+ --------------------------------------------------*/
+.house_houseManager_center_addhouse_ul {
+	width: 100%;
+	margin: 0px 0 15px 0 !important;
+	float: left;
+}
+
+.house_houseManager_center_addhouse_ul li {
+	width: 100%;
+	float: left;
+}
+
+.addhouse_list_main_cls {
+	width: 750px;
+	border-bottom: 1px dashed rgb(221, 221, 221);
+	float: left;
+	margin: 0 0 0 20px !important;
+	display: inline;
+	padding: 15px 0 15px 0 !important;
+}
+
+.addhouse_textfield_lable {
+	width: 85px !important;
+	height: 30px !important;
+	line-height: 30px;
+	text-align: right;
+	float: left;
+}
+
+.addhouse_textfield_inpt {
+	float: left;
+	margin: 0 0 0 10px !important;
+	display: inline;
+}
+
+.huxing {
+	line-height: 25px;
+}
+
+.addhouse_type_lt {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.addhouse_type_lt input {
+	float: left;
+	margin: 8px 0 0 0 !important;
+	_margin: 5px 0 0 0 !important;
+}
+
+.addhouse_type_lt span {
+	float: left;
+	margin: 6px 15px 0 8px !important;
+	_margin: 8px 15px 0 8px !important;
+}
+
+.txtNew{
+	width:92px; height:22px; 
+	line-height:22px; 
+	border: 1px solid #959595; 
+	border-right: 1px solid #d3d3d3; 
+	border-bottom: 1px solid #d3d3d3; 
+	font-size: 12px; 
+	font-family: Arial,Helvetica,sans-serif; 
+	-webkit-box-shadow: none; 
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s; 
+	transition: border linear 0.2s, box-shadow linear 0.2s; 
+	padding:0 3px;
+}
+
+.txtNew:hover{
+	border: 1px solid #959595; 
+	-webkit-box-shadow: 0 1px 2px #ccc inset; 
+	box-shadow: 0 1px 2px #ccc inset;
+}
+
+.txtNew:focus{
+	border: 1px solid #3c94e5; 
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.addhouse_address_one {
+	border: 1px solid #cccccc; 
+	width: 95px; 
+	height: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+	height: 25px;
+	line-height: 25px;
+	position: relative;
+	float: left;
+}
+
+.address_one_a {
+	float: left;
+	width: 68px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #666;
+}
+
+.address_one_b {
+	float: right;
+	width: 27px;
+	height: 25px;
+	background: url("../../../../uimages/default/skin/color_default.png") no-repeat -298px 0px;
+}
+
+.select_con {
+	background: white;
+	border: 1px solid #CCC;
+	left: -1px;
+	position: absolute;
+	top: 25px;
+	width: 95px;
+	max-height: 215px;
+	_height: expression(this.scrollHeight > 215 ? "215px" : "auto");
+	overflow: auto;
+	z-index: 1;
+}
+
+.select_con ul li {
+	border-top: 1px dotted #CCC;
+	color: #666;
+	cursor: pointer;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.addhouse_list_line {
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.addhouse_gexing_infocfg {
+	color: #006ccb;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.addhouse_gexing_shifan {
+	color: #ff4e00;
+	color: red;
+	margin-left: 10px !important;
+	cursor: pointer;
+}
+
+.addhouse_localupload {
+	width: 84px !important;
+	height: 29px !important;
+    background: url("../../../../uimages/default/skin/color_default.png") no-repeat scroll transparent;
+    line-height: 29px;
+}
+
+.localup {
+	background-position: -197px -218px;
+}
+
+.phoneup {
+	background-position: -112px -218px;
+}
+
+.up_left {
+	margin-left: 27px;
+	color: #666666;
+}
+
+.up_left:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.upload_info {
+	line-height: 33px;
+	color: #666666;
+}
+
+.addhouse_list_submit {
+	margin: 0 0 0 95px !important;
+}
+
+.houseManager_center_bottom_page {
+	width: 750px;
+	float: left;
+	margin: 0 0 0 10px !important;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+1. div高度-ie6浏览器会增高一点点
+   解决办法：div要指定高度，增加overflow: hidden;属性，能够兼容几大浏览器
+   
+2. div-float浮漂，margin属性会增多，例如margin-left
+   解决办法：div增加：display: inline;，能够兼容处理
+
+   
+
+   

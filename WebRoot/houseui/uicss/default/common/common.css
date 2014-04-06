@@ -1,0 +1,1096 @@
+@CHARSET "UTF-8";
+/*--------------------------------------------------
+ * 常用CSS
+ --------------------------------------------------*/
+body {
+    font: 12px/1.5 "Microsoft Yahei","微软雅黑",Tahoma,Arial,"Helvetica Neue","Hiragino Sans GB","Segoe UI",STHeiti,sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol, ul, li, dl, dt, dd {
+	list-style: none outside none;
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	border: 0;
+}
+
+input, textarea, lable, select {
+	vertical-align: middle;
+}
+
+input, textarea {
+	outline-style: none;
+}
+
+.huigenghao_house_width_cls {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.huigenghao_house_nbsp {
+	width: 20px;
+}
+
+.huigenghao_house_left_cls {
+	float: left;
+}
+
+.huigenghao_house_right_cls {
+	float: right;
+}
+
+.fang_cor_a {
+	color: #ff4e00;
+}
+
+.huigenghao_house_menu {
+	height: 36px;
+	width: 100%;
+	background-color: #bb3500;
+}
+
+.house_line {
+	margin: 0 6px 0 3px;
+}
+
+a, label, :focus {
+    outline: 0px none;
+}
+
+.allrow_cls {
+	color: red;
+	margin-right: 5px;
+}
+
+.grey999 {
+	color:#888
+}
+
+.user_register_area_inpt {
+	height: 25px;
+	padding: 5px;
+	font-size: 14px;
+	border-right: 1px solid rgb(227, 227, 227);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204) rgb(227, 227, 227) rgb(227, 227, 227);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	width: 252px;
+	box-shadow: 0px 1px 1px rgb(255, 255, 255);
+    border-radius: 3px;
+    line-height: 20px;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 顶部横条栏
+ --------------------------------------------------*/
+.huigenghao_house_toolbar {
+	background-color: #F7F7F7;
+	height: 30px;
+	border-bottom: 1px #DFDEDE solid;
+	width: 100%;
+}
+
+.house_toolbar_left_ul {
+	color: #555;
+}
+
+.house_toolbar_left_ul li {
+	float: left;
+	line-height: 30px;
+	margin: 0 10px 0 0 !important;
+}
+
+.house_toolbar_wel_text {
+	color: #555;
+}
+
+.house_toolbar_change_city {
+	cursor: pointer;
+}
+
+.toolbar_right_ul {
+	float: right;
+}
+
+.toolbar_right_ul a:hover {
+	text-decoration: none;
+}
+
+.toolbar_right_ul li.not_right {
+	margin: 0px !important;
+}
+
+.f_db {
+	padding: 0 1px;
+	color: #DBDBDB;
+}
+
+.right_ul_login_weixin {
+	background: url('../../../../houseui/uimages/default/logo/weixin_ico.jpg') no-repeat 0 5px;
+	padding-left: 28px;
+	display: inline-block;
+}
+
+.quickmark {
+	width: 238px;
+	height: 292px;
+	border: 1px solid silver;
+	box-shadow: 0 0px 4px #999;
+	background: white;
+	position: absolute;
+	z-index: 999999998;
+	margin: 30px 0 0 740px !important;
+	padding: 10px;
+	border-radius: 0 0 5px 5px !important;
+}
+
+.quickmark dl dt,dd {
+	width: 238px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+.quickmark_jt2 {
+	width: 11px;
+	height: 7px;
+	background: url('../../../../houseui/uimages/default/logo/quickmark_jt2.jpg') no-repeat;
+	position: absolute;
+	z-index: 999999999;
+	top: -7px;
+	left: 223px;
+}
+
+
+
+
+/*--------------------------------------------------
+ * 房产首页-Logo栏
+ --------------------------------------------------*/
+.huigenghao_house_top {
+	width: 100%;
+	background: white;
+}
+
+.huigenghao_house_logo {
+	width: 1000px;
+	margin: 0 auto;
+	height: 80px;
+}
+
+.huigenghao_house_logo_left_div_a {
+	height: 100%;
+	float: left;
+}
+
+.house_logo_left_tab_lgdv {
+	margin: 23px 0 0 0 !important;
+	float: left;
+}
+
+.house_logo_left_lgdv_one {
+	float: left;
+	margin: 36px 0 0 5px !important;
+}
+
+.house_logo_left_tab_regbkg {
+	margin: 28px 0 0 23px !important;
+	border: 1px solid #EEE;
+	padding: 0 6px 0 6px !important;
+	cursor: pointer;
+	float: left;
+}
+
+.logo_left_tab_regbkg_adrs {
+	line-height: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3daf2c;
+}
+
+.logo_left_tab_regbkg_qhcs {
+	line-height: 25px;
+	font-size: 12px;
+	color: #3f3f3f;
+	padding: 0 0 0 5px !important;
+}
+
+.logo_left_tab_regbkg_ico {
+	width: 7px;
+	height: 4px;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") repeat-x  0px 0px;
+	overflow: hidden;
+}
+
+.huigenghao_house_logo_right_div_a {
+	height: 100%;
+	float: right;
+}
+
+.house_logo_right_div_a_dlzc {
+	height: 25px;
+	margin: 28px 0 0 0px !important;
+	border: 1px solid #EEE;
+	padding: 0 6px 0 6px !important;
+	float: right;
+}
+
+.logo_right_div_a_dlzc_hydl {
+	line-height: 25px;
+	font-size: 12px;
+	border-right: 1px solid #EEE;
+	padding: 0 10px 0 4px !important;
+	cursor: pointer;
+}
+
+.logo_right_div_a_dlzc_mfzc {
+	line-height: 25px;
+	font-size: 12px;
+	color: #008000;
+	padding: 0 4px 0 10px !important;
+	cursor: pointer;
+}
+
+.huigenghao_house_logo_city_list {
+	width: 430px;
+	float: left;
+	position: absolute;
+	border: 1px solid #EEE;
+	margin: 30px 0 0 178px !important;
+	z-index: 999999999;
+	background: white;
+	padding: 0 0 10px 0 !important;
+}
+
+.house_logo_city_list_head {
+	width: 100%;
+	height: 33px;
+}
+
+.logo_city_list_head_text {
+	line-height: 33px;
+	margin: 0 0 0 10px !important;
+	color: #999;
+	float: left;
+}
+
+.house_logo_city_list_b_hct_nav {
+	border-bottom: 1px solid #e8e8e8;
+	height: 33px;
+	padding-left: 10px !important;
+}
+
+.house_logo_city_list_b_hct_nav span {
+	position: relative;
+	bottom: -1px;
+	float: left;
+	display: inline;
+	margin: 0 25px 0 0px !important;
+	color: #0084bb;
+	cursor: pointer;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+
+.house_logo_city_list_b_hct_nav span.active {
+	border-bottom: 1px solid #0084bb;
+	font-weight: bold;
+	background-color: #fff;
+	position: relative;
+	bottom: -1px;
+	float: left;
+	display: inline;
+	color: #0084bb;
+	cursor: pointer;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.house_logo_city_list_b_hct_lst {
+	padding: 0px 0 0 10px;
+}
+
+.e_hct_lst .citychar {
+	color: #0084bb;
+	font-family: Tahoma,sans-serif;
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	width: 10px;
+	font-weight: bold;
+}
+
+.e_hct_lst .cityname {
+	float: left;
+	display: block;
+	width: 400px;
+	line-height: 24px;
+	margin-left: 10px;
+}
+
+.e_hct_lst .cityname li {
+	float: left;
+	height: 24px;
+	vertical-align: middle;
+	line-height: 24px;
+	overflow: hidden;
+	text-align: left;
+	width: 20%;
+}
+
+.logo_city_list_head_close {
+	width: 14px;
+	height: 14px;
+	background: url("../../../../houseui/uimages/default/menu/Hot_close.png");
+	float: right;
+	margin: 8px 8px 0 0 !important;
+	cursor: pointer;
+}
+
+.toolbar_right_ul_login {
+	border-left: 1px solid #f7f7f7;
+	border-right: 1px solid #f7f7f7;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") no-repeat -255px -94px;
+}
+
+.toolbar_right_ul_login_hover {
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	background: #f7f7f7;
+}
+
+.huigenghao_house_logo_atlogin {
+	width: 250px;
+	position: absolute;
+	border: 1px solid #EEE;
+	border-top: 0px solid white;
+	z-index: 999999999;
+	background: white;
+	padding: 0 0 10px 0 !important;
+	margin: 30px 0 0 598px !important;
+	border-radius: 0 0 5px 5px !important;
+}
+
+.house_logo_atlogin_ul {
+	margin: 10px 0 0 0 !important;
+}
+
+.house_logo_atlogin_ul li {
+	margin: 0 0 10px 0 !important;
+	float: left;
+	width: 235px;
+}
+
+.house_logo_atlogin_ul li.not_mgnbtm {
+	margin: 0 0 0px 0 !important;
+}
+
+.house_logo_atlogin_a {
+	float: left;
+}
+
+.atlogin_one {
+	line-height: 25px;
+	margin: 0 0 0 15px !important;
+	display: inline;
+}
+
+.house_logo_atlogin_btn {
+	width: 60px;
+	height: 25px;
+    background: url("../../../../houseui/uimages/default/skin/btn_default_2.png") no-repeat scroll -100px -152px transparent;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    display: block;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 0 0 55px !important;
+	float: left;
+}
+
+.house_logo_atlogin_btn:hover {
+    background: url("../../../../houseui/uimages/default/skin/btn_default_2.png") no-repeat scroll -100px -177px transparent;
+    text-decoration: none;
+}
+
+.house_logo_atlogin_reg {
+	float: right;
+}
+
+.house_logo_atlogin_reg a {
+	color: rgb(0, 108, 203);
+	line-height: 25px;
+}
+
+.house_logo_atlogin_line {
+	width: 230px !important;
+	height: 10px !important;
+	border-top: 1px dashed #EEE;
+	margin: 5px 0 0 10px !important;
+}
+
+.logo_atlogin_platform_text {
+	margin: 0 0 0 10px !important;
+}
+
+.house_logo_atlogin_platform {
+	float: left;
+	width: 34px !important;
+	height: 34px !important;
+    background: url("../../../../houseui/uimages/default/skin/btn_default_2.png") no-repeat;
+    margin: 0 10px 0 0 !important;
+    cursor: pointer;
+}
+
+.auto_left {
+	margin: 0 0 0 10px !important;
+}
+
+.auto_sina {
+	background-position: -1px -290px;
+}
+
+.auto_sina:hover {
+	background-position: -1px -324px;
+}
+
+.auto_qq {
+	background-position: -46px -290px;
+}
+
+.auto_qq:hover {
+	background-position: -46px -324px;
+}
+
+.auto_renren {
+	background-position: -91px -290px;
+}
+
+.auto_renren:hover {
+	background-position: -91px -324px;
+}
+
+.auto_qqweibo {
+	background-position: -136px -290px;
+}
+
+.auto_qqweibo:hover {
+	background-position: -136px -324px;
+}
+
+.auto_zifubao {
+	background-position: -1px -358px;
+}
+
+.auto_zifubao:hover {
+	background-position: -1px -392px;
+}
+
+.house_logo_right_div_a_one {
+	float: right;
+	margin: 13px 0 0 0 !important;
+	width: 200px;
+	height: 60px;
+	display: inline;
+}
+
+.logo_right_div_a_one_text {
+	background: url("../../../../houseui/uimages/default/logo/nav_phone.gif") no-repeat;
+	color: #868686;
+	text-align: right;
+	padding-left: 21px;
+	height: 24px;
+	line-height: 24px;
+	float: right;
+}
+
+.logo_right_div_a_one_bottom {
+	font-size: 24px;
+	font-weight: bold;
+	color: #E36510;
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+
+.house_logo_right_div_a_two {
+	float: right;
+	margin: 3px 0 0 10px !important;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------
+ * 房产首页-Menu菜单栏
+ --------------------------------------------------*/
+.huigenghao_house_menu_main {
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+	font-size: 14px;
+}
+
+.house_menu_main_all {
+	float: left;
+	width: 183px;
+	height: 36px;
+	background-color: #006ccb;
+	background: #d83a00;
+}
+
+.house_menu_main_all_text {
+	line-height: 36px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+
+.house_menu_main_list {
+	float: left;
+	margin: 0 0 0 1px !important;
+}
+
+.house_menu_main_list li {
+	float: left;
+	list-style: none;
+	height: 36px;
+	cursor: pointer;
+}
+
+.house_menu_main_list_li_hover {
+	background: #d83a00;
+}
+
+.house_menu_main_list li a {
+	line-height: 36px;
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	padding: 0 15px 0 15px !important;
+}
+
+.house_menu_main_list li a:hover {
+	text-decoration: none;
+}
+
+.house_menu_main_list_select {
+	height: 40px;
+	background: none repeat scroll 0 0 #660000;
+}
+
+.house_menu_main_right {
+	width: 131px;
+	height: 36px;
+	float: right;
+	background-color: #006ccb;
+	background: #d83a00;
+}
+
+.menu_main_right_one {
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.menu_main_right_one a {
+	color: white;
+}
+
+.menu_main_right_one a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+/*--------------------------------------------------
+ * 首页区域-公共CSS
+ --------------------------------------------------*/
+.huigenghao_house_menu_fix {
+    position: fixed;
+    top: 0px;
+    z-index: 2146432;
+    height: 36px;
+	width: 100%;
+	background-color: rgb(187, 53, 0);
+}
+
+.huigenghao_house_menu_ie6fix {
+    position: absolute;
+    top: expression(eval(document.documentElement.scrollTop));
+    z-index: 2146432;
+    height: 36px;
+	width: 100%;
+	background-color: rgb(187, 53, 0);
+}
+
+.huigenghao_house_register_login_fix {
+	border-bottom: 1px solid #ff4e00;
+	background: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2146432;
+}
+
+.huigenghao_house_register_login_ie6fix{
+	border-bottom: 1px solid #ff4e00;
+	background: white;
+    height: 70px;
+	width: 100%;
+    position: absolute;
+    top: expression(eval(document.documentElement.scrollTop));
+    z-index: 2146432;
+}
+
+.huigenghao_house_fangchan_type_filter {
+	width: 1000px;
+	background: white;
+	margin: 0 auto;
+}
+
+.huigenghao_house_fangchan_type_filter_fix {
+	background: white;
+    width: 1000px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0px;
+    z-index: 2146432;
+}
+
+.huigenghao_house_fangchan_type_filter_ie6fix{
+	background: white;
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: expression(eval(document.documentElement.scrollTop));
+    z-index: 2146432;
+}
+
+
+
+
+
+/*--------------------------------------------------
+ * 合作伙伴-友情链接-合作联系区域
+ --------------------------------------------------*/
+.huigenghao_house_hezmeiti {
+	width: 970px !important;
+	margin: 0px 0 0 15px !important;
+}
+
+.house_hezmeiti_head {
+	width: 100%;
+	border-bottom: 1px dashed #EEE;
+	padding: 0 0 5px 0 !important; 
+}
+
+.hezmeiti_head_subject {
+	font-size: 16px;
+	color: #333;
+}
+
+.huigenghao_house_hezuomeiti {
+	border: 1px solid #EEE; 
+	margin-top: 15px !important;
+	padding: 10px 0 0px 0 !important;
+	float: left;
+	width: 100%;
+}
+
+.house_hezuomeiti_main {
+	padding: 10px !important;
+}
+
+.house_hezuomeiti_main a {
+	margin: 10px 0 0 10px !important;
+	line-height: 25px !important;
+	color: #666;
+}
+
+.house_hezuomeiti_main span {
+	color: #D5D5D5;
+	margin: 0 0 0 10px !important;
+}
+
+.hezuomeiti_main_hzlx_list {
+	height: 20px !important;
+}
+
+.hezuomeiti_main_hzlx_list li {
+	float: left;
+	width: 300px !important;
+	color: #666;
+}
+
+
+
+/*--------------------------------------------------
+ * 房产首页-顶部横幅区域
+ --------------------------------------------------*/
+.huigenghao_house_bottom {
+	height: 35px !important;
+	width: 100% !important;
+	margin: 15px 0 0 0 !important;
+	background-color: #1A58A2;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+.huigenghao_house_bottom_one {
+	font-size: 14px;
+	line-height: 35px;
+	color: white;
+	float: left;
+	margin-right: 10px !important;
+	font-weight: 100;
+}
+
+.huigenghao_house_bottom_child_list li {
+	float: left;
+	line-height: 37px;
+	margin: 0 10px 0 0 !important;
+}
+
+.huigenghao_house_bottom_child_list li a {
+	color: white;
+}
+
+.huigenghao_house_bottom_child_list li a:hover {
+	color: #ff4e00;
+}
+
+
+
+/*--------------------------------------------------
+ * 房产首页-页脚版权区域
+ --------------------------------------------------*/
+.huigenghao_house_foot {
+	width: 100% !important;
+	border-top: 1px solid #CCC;/*#EAEAEA;*/
+	float: left;
+	margin: 15px 0 0 0 !important;
+	background: #fafafa;
+}
+
+.huigenghao_house_main_foot {
+	width: 100% !important;
+	color: #666;
+	overflow: hidden;
+	margin-top: 15px !important;
+	float: left;
+}
+
+.house_main_foot_icon_a {
+	float: left;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") no-repeat;
+	width: 30px !important;
+	height: 30px !important;
+}
+
+.foot_icon_website {
+	background-position: 0px -349px;
+	margin: 5px 0 0 0px !important;
+}
+
+.foot_icon_hezuo {
+	background-position: -40px -349px;
+	margin: 5px 0 0 120px !important;
+}
+
+.foot_icon_help {
+	background-position: -123px -349px;
+	margin: 5px 0 0 120px !important;
+}
+
+.house_main_foot_one {
+	float: left;
+}
+
+.main_foot_one_subject {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	margin: 8px 0 8px 10px !important;
+}
+
+.info_text {
+	margin: 5px 0 8px 10px !important;
+}
+
+.info_text a {
+	font-size: 14px;
+	color: #666;
+	font-weight: 100;
+}
+
+.main_foot_right {
+	margin: 5px 0px 5px 0 !important;
+}
+
+.main_foot_right_one {
+	width: 290px !important;
+	float: right;
+}
+
+.foot_right_weixin_text {
+	float: left;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") no-repeat -253px -249px;
+	width: 30px !important;
+	height: 100px !important;
+}
+
+.foot_right_weixin_icon {
+	float: left;
+	margin: 0 0 0 10px !important;
+}
+
+.foot_right_weixin_icon a img {
+	width: 100px !important;
+	height: 100px !important;
+}
+
+.foot_right_ficon {
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") no-repeat;
+	width: 140px !important;
+	height: 45px !important;
+	display: inline-block;
+	margin: 0 0 0 0px !important;
+}
+
+.iph_down {
+	background-position:  0px -381px;
+}
+
+.andr_down {
+	background-position:  0px -428px;
+	margin: 10px 0 0 0 !important;
+}
+
+.main_foot_right_two {
+	float: right;
+	height: 48px;
+	border-radius: 5px !important;
+	line-height: 48px;
+	border: 1px solid #EEE;
+	padding: 0 10px;
+	margin: 10px 0 0 0 !important;
+}
+
+.foot_right_two_icon {
+	float: left;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") no-repeat -171px -349px;
+	width: 18px !important;
+	height: 18px !important;
+	margin: 15px 0 0 0 !important;
+}
+
+.foot_right_two_text {
+	float: left;
+	color: #666;
+	margin: 0 0 0 5px !important;
+}
+
+.f_htel {
+	color: #F60;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.house_main_foot_bottom {
+	width: 970px !important;
+	margin: 10px 0 0 15px;
+	border-top: 1px solid #EAEAEA;
+	height: 65px !important;
+	line-height: 65px;
+	text-align: center;
+	float: left;
+}
+
+
+
+
+
+/*--------------------------------------------------
+ * 分页公共区域
+ --------------------------------------------------*/
+.huigenghao_house_main_list_page {
+	width: 100%;
+	height: 35px;
+	margin: 15px 0 0 0 !important;
+	display: inline;
+	overflow: hidden;
+	float: left;
+}
+
+.house_main_list_page_ul {
+	text-align: center;
+}
+
+.house_main_list_page_ul li {
+	float: left;
+	text-align: center;
+}
+
+.house_main_list_page_ul li a {
+	border: 1px solid #d0d0d0;
+	line-height: 35px;
+	padding: 5px 10px;
+	margin: 0 0 0 10px !important;
+}
+
+.house_main_list_page_ul li a:hover {
+	text-decoration: none;
+	color: #006ccb;
+}
+
+.page_index_select {
+	background-color: rgb(255, 78, 0);
+	color: white;
+}
+
+.main_list_page_perv {
+	border: 1px solid #d0d0d0;
+	padding: 0px 10px;
+	margin: 3px 0 0 0 !important;
+	line-height: 27px;
+	cursor: pointer;
+}
+
+.page_xia {
+	margin-left: 10px !important;
+}
+
+.page_shang {
+	color: #999;
+}
+
+.fangchanbaike_list_icon {
+    width: 3px !important;
+    height: 12px !important;
+	background: url("../../../../houseui/uimages/default/skin/color_default.png") repeat-x 0px -14px;
+	overflow: hidden;
+	display: inline;
+}
+
+.fangchanbaike_list_select a {
+	color: red;
+}
+
+
+
+
+
+/*--------------------------------------------------
+ * 注册-登录界面-Logo栏
+ --------------------------------------------------*/
+.house_register_login_logo {
+	width: 1000px;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.huigenghao_house_register_login {
+	border-bottom: 1px solid #ff4e00;
+	background: white;
+}
+
+.house_register_login_menu {
+	margin: 35px 0 0 0 !important;
+	float: right;
+}
+
+.house_register_login_menu li {
+	float: left;
+	margin: 0 0 0 15px !important;
+	display: inline;
+	overflow: hidden;
+}
+
+.house_register_login_menu li a {
+	font-size: 14px;
+}
+
+.register_login_menu_line {
+	background: url("../../../../uimages/default/skin/color_default.png") no-repeat  -56px -117px;
+	width: 8px;
+	height: 13px;
+	float: left;
+	margin: 6px 0 0 15px !important;
+	*margin: 4px 0 0 15px !important;
+	display: inline;
+	overflow: hidden;
+}
+
+.main_lginare_ckcedbx {
+	float: left;
+	margin: 5px 0 0 55px !important;
+	display: inline;
+}
+
+.main_lginare_ckdbxlb {
+	float: left;
+	margin-top: 5px;
+	_margin-top: 8px;
+}
+
+.main_lginare_wjpassword {
+	float: right;
+	margin: 6px 0 0 0 !important;
+}
+
+.main_lginare_wjpassword a {
+	color: rgb(0, 108, 203);
+}
+
+
+
+
+
+
+
+

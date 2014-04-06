@@ -1,0 +1,318 @@
+@CHARSET "UTF-8";
+/*--------------------------------------------------
+ * 会更好房产-用户登录
+ --------------------------------------------------*/
+.huigenghao_house_user_login {
+	margin: 15px 0 0 0 !important;
+	width: 100%;
+	border: 1px solid #e9e9e9;
+	float: left;
+}
+
+.house_user_login_reg_left {
+	float: left;
+	width: 640px;
+	height: 100%;
+	margin: 20px 0 0 0 !important;
+}
+
+.house_user_login_reg_head {
+	font-size: 14px;
+	line-height: 50px;
+	padding: 0 0 0 15px !important;
+	margin: 0px 0 0 0 !important;
+	border-bottom: 1px dashed #d0d0d0;
+}
+
+.user_login_reg_left_main {
+	width: 100%;
+	margin: 10px 0 20px 0 !important;
+	display: inline;
+	overflow: hidden;
+	float: left;
+	border-right: 1px dashed #d0d0d0;
+}
+
+.user_login_reg_left_main li {
+	padding: 10px 10px 10px 15px !important;
+	width: 100%;
+	float: left;
+}
+
+.user_login_reg_left_main li span {
+	line-height: 36px;
+	float: left;
+	margin-right: 10px !important;
+}
+
+.login_reg_left_li_ldiv {
+	float: left;
+	width: 350px;
+}
+
+.login_reg_left_li_rdiv {
+	float: right;
+	width: 285px;
+	line-height: 36px;
+	color: green;
+}
+
+.login_reg_left_li_alldiv {
+	float: right;
+	width: 100%;
+	color: #999999;
+	margin: 8px 0 0 0 !important;
+}
+
+.login_reg_left_li_alldiv div {
+	margin-left: 72px !important;
+}
+
+.user_register_userName {
+	height: 20px;
+	padding: 8px;
+	font-size: 14px;
+	border-right: 1px solid rgb(227, 227, 227);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204) rgb(227, 227, 227) rgb(227, 227, 227);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	width: 252px;
+	box-shadow: 0px 1px 1px rgb(255, 255, 255);
+    border-radius: 3px;
+    line-height: 20px;
+}
+
+.user_register_submit_div {
+    width: 90px;
+    background: none repeat scroll 0% 0% rgb(255, 102, 0);
+    height: 32px;
+    float: left;
+    margin: 0 0 0 71px !important;
+    display: inline;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	box-shadow: 0px 1px 1px #ffffff;
+    border-radius: 3px;
+}
+    
+.register_submit_text {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: bold;
+}
+    
+.register_submit_text a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    
+.register_submit_text a:hover {
+	text-decoration: none;
+}
+
+.login_reg_left_li_agreement {
+	width: 100%;
+}
+
+/*------ 右边栏 ------*/
+.house_user_login_reg_right {
+	float: right;
+	width: 345px;
+	margin-top: 20px;
+	padding: 10px 0 !important;
+}
+
+.user_login_reg_right_head {
+	width: 100%;
+}
+
+.user_login_reg_right_hline {
+	width: 330px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+	height: 5px;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+.user_login_reg_right_other {
+	width: 100%;
+	float: left;
+	margin: 10px 0 0 0 !important;
+}
+
+.login_reg_right_other_main {
+	overflow: auto;
+	margin: 10px 0 0 0 !important;
+	float: left;
+}
+
+.login_reg_right_other_main a {
+    float: left;
+    width: 106px;
+    height: 100px;
+    margin-right: 5px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    background: url("../../../../uimages/default/userspace/loginreg/login.png") no-repeat scroll 0px 50% rgb(255, 255, 255);
+    display: block;
+    outline: medium none;
+    text-indent: -9999px;
+}
+
+a.auth-qq {
+    background-position: -106px 0px;
+}
+
+a.auth-sina {
+    background-position: 0px 0px;
+}
+
+a.auth-baidu {
+    background-position: -318px 0px;
+}
+
+.login_reg_right_other_main a:hover {
+    border: 1px solid rgb(255, 134, 0);
+}
+
+/*------ new login ------*/
+.huigenghao_house_uservip_login {
+	height: 455px;
+	width: 100%;
+	margin: 15px 0 0 0 !important;
+}
+
+.house_uservip_login_main {
+	height: 450px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+}
+
+.main_lginare_with {
+    margin: auto;
+    width: 1000px;
+}
+
+.uservip_login_left_one {
+	margin: 20px 0 0 0 !important;
+}
+
+.uservip_login_main_lginare {
+	width: 380px;
+	height: 450px;
+	float: right;
+	position: relative;
+	background: white;
+	border-radius: 10px !important;
+	border: 1px solid #EAEAEA;
+}
+
+.login_main_lginare_ul {
+	width: 100%;
+	margin: 10px 0 0px 0 !important;
+	display: inline;
+	overflow: hidden;
+	float: left;
+}
+
+.login_main_lginare_ul li {
+	padding: 0px 0px 10px 15px !important;
+	width: 100%;
+	float: left;
+}
+
+.login_main_lginare_ul li.main_lginare_ul_one {
+	padding: 10px 10px 10px 15px !important;
+}
+
+.login_main_lginare_ul li span {
+	line-height: 36px;
+	float: left;
+	margin-right: 10px !important;
+}
+
+.main_lginare_form_head {
+	font-size: 20px;
+	margin: 0 0 0 15px;
+	line-height: 40px;
+	color: #ff8500;
+}
+
+.main_lginare_other {
+	width: 330px;
+	float: left;
+}
+
+.main_lginare_submit_div {
+	display: inline-block;
+	width: 267px;
+	height: 42px;
+	background: url("../../../../uimages/default/skin/btn_default.png") no-repeat scroll 0px -207px transparent;
+	text-align: center;
+	font-weight: bold;
+	line-height: 42px;
+	color: white;
+	margin: 3px 0 0 58px !important;
+	font-size: 16px;
+}
+
+.main_lginare_submit_div:hover {
+	text-decoration: none;
+}
+
+.main_lginare_submit_line {
+	width: 330px;
+	height: 15px;
+	border-top: 1px dashed #d0d0d0;
+	float: left;
+	margin: 10px 0 0 25px !important;
+	display: inline;
+}
+
+.main_lginare_bottom {
+	width: 100%;
+	float: left;
+}
+
+.main_lginare_bottom_head {
+	margin: 0 0 0 25px !important;
+}
+
+.main_lginare_bottom_head a {
+	color: rgb(0, 108, 203);
+}
+
+.main_lginare_bottom_head a:hover {
+	text-decoration: underline;
+}
+
+.main_lginare_bottom_plat {
+	margin: 15px 0 0 25px !important;
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
