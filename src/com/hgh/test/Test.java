@@ -7,6 +7,8 @@ public class Test {
 		//嘿嘿，还能用吧！
 		System.out.println("---------------------");
 		
+		//可以啊，呵呵呵呵呵
+		
 	}
 	
 }
